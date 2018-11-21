@@ -65,6 +65,9 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- AddEvent script -->
+	<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
 	</head>
 	<body>
 	<header role="banner" id="qbootstrap-header">
@@ -78,13 +81,14 @@
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
-	            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-	            <!--<li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li>-->
-	            <li><a href="#" data-nav-section="story"><span>Love Story</span></a></li>
-	            <li><a href="#" data-nav-section="greetings"><span>Greetings</span></a></li>
+	            <!--<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>-->
+							<li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li>
+							<li><a href="#" data-nav-section="wedding-day"><span>Wedding Day</span></a></li>
+	            <!--<li><a href="#" data-nav-section="story"><span>Love Story</span></a></li>-->
+	            <!--<li><a href="#" data-nav-section="greetings"><span>Greetings</span></a></li>-->
 	            <li><a href="#" data-nav-section="people"><span>People</span></a></li>
-	            <li><a href="#" data-nav-section="when-where"><span>When &amp; Where</span></a></li>
-	            <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
+	            <li><a href="#" data-nav-section="when-where"><span>Ceremony & RSVP</span></span></a></li>
+	            <!--<li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>-->
 	            <!--<li><a href="#" data-nav-section="gallery"><span>Gallery</span></a></li>-->
 	            <!--<li><a href="#" data-nav-section="blog"><span>Blog</span></a></li>-->
 	          </ul>
@@ -115,14 +119,14 @@
 		</div>
 	</section>
 
-	<div id="qbootstrap-couple" class="qbootstrap-section-gray">
+	<div id="qbootstrap-couple" class="qbootstrap-section-gray" data-section="groom-bride">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 animate-box">
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<h2>Join Us</h2>
-						<p>Jessica and I started dating on January 22, 2012. We spent all of our twenties with each other, and decided we were ready to take the next step. Please join us in saying yes to spending the rest of our lives together.</p>
-						<p><strong>on April, 13, 2019 &mdash; Chipley, Florida</strong></p>
+						<p>Friends and Family mean everything to us. We are inviting you to join us in attending our wedding and witness the sharing of our vows.</p>
+						<p><strong>April, 13, 2019 &mdash; Chipley, Florida</strong></p>
 						<img src="images/flaticon/svg/005-wedding-car.svg" class="svg" alt="WillYouBeMyers">
 					</div>
 				</div>
@@ -217,7 +221,7 @@
 			</div>
 		</div>
 	</div>
--->
+
 	<div id="qbootstrap-story" data-section="story">
 		<div class="container">
 			<div class="row animate-box">
@@ -336,7 +340,7 @@
 			</div>
 		</div>
 	</div>
-
+-->
 	<div id="qbootstrap-people" data-section="people">
 		<div class="container">
 			<div class="row animate-box">
@@ -415,16 +419,34 @@
 		</div>
 	</div>
 
+	<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<!--<img src="images/flaticon/svg/005-two.svg" class="svg" alt="WillYouBeMyers">-->
+						<h2>						</h2>
+						<div class="row">
+						<div class="col-md-10 col-md-offset-1 subtext">
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="qbootstrap-when-where" data-section="when-where">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="WillYouBeMyers">
-						<h2>Ceremony &amp; Party</h2>
+						<h2>Ceremony</h2>
 						<div class="row">
 						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>"We are only as strong as we are united, as weak as we are divided."</h3>
 						</div>
 					</div>
 					</div>
@@ -457,40 +479,49 @@
 									</div>
 								</div>
 							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+							<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+							<!--<p><a href="" class="btn btn-primary btn-sm">Add to Calendar</a></p>-->
+							<div title="Add to Calendar" class="addeventatc">
+									Add it to Calendar
+									<span class="start">04/13/2019 03:00 PM</span>
+									<span class="end">04/13/2019 10:00 PM</span>
+									<span class="timezone">America/Chicago</span>
+									<span class="title">Myers Wedding</span>
+									<span class="description">Ronnie and Jessica are getting married!</span>
+									<span class="location">Southern Lea Farms 3243 Bonnett Pond Rd, Chipley, FL 32428</span>
+							</div>
+							<br />
+							<br />
+							<br />
+							<div class="ceremony-bg" style="background-image: url(images/wed-party.jpg);"></div>
+							<div class="date">
+								<br />
+								<br />
+								<p>
+									3243 Bonnett Pond Rd<br />
+									Chipley, FL 32428<br />
+								</p>
+							</div>
+							<p><a href="https://www.google.com/maps/place/Southern+Lea+Farms/@30.6173298,-86.212067,9.33z/data=!4m5!3m4!1s0x8893a7a3300f5335:0xdccef8784ba1c0a9!8m2!3d30.603535!4d-85.626184"
+								class="btn btn-primary btn-md" target="_blank">Google Maps Link</a></p>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-6 text-center animate-box">
-					<div class="wedding-events">
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesGZ9UiVWprjwMe392PzAHkWSJ3W6VAxU4OwS9RJSN5m2qvA/viewform?embedded=true" width="640" height="1113" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+					<!--<div class="wedding-events">
 						<div class="ceremony-bg" style="background-image: url(images/wed-party.jpg);"></div>
 						<div class="desc">
 							<h3>Wedding Party</h3>
 							<div class="row">
-								<div class="col-md-2 col-md-push-5">
-									<div class="icon-tip">
-										<span class="icon"><i class="icon-heart-o"></i></span>
-									</div>
-								</div>
-								<div class="col-md-5 col-md-pull-1">
-									<div class="date">
-										<i class="icon-calendar"></i>
-										<span>Saturday</span>
-										<span>02 Dec. 2017</span>
-									</div>
-								</div>
-								<div class="col-md-5 col-md-pull-1">
-									<div class="date">
-										<i class="icon-clock2"></i>
-										<span>10:00 AM</span>
-										<span>11:00 AM</span>
-									</div>
-								</div>
+								<p>
+									3243 Bonnett Pond Rd<br />
+									Chipley, FL 32428<br />
+								</p>
 							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+							<p><a href="https://www.google.com/maps/place/Southern+Lea+Farms/@30.6173298,-86.212067,9.33z/data=!4m5!3m4!1s0x8893a7a3300f5335:0xdccef8784ba1c0a9!8m2!3d30.603535!4d-85.626184"
+								class="btn btn-primary btn-md" target="_blank">Google Maps Link</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -506,63 +537,7 @@
 
 
 
-	<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="WillYouBeMyers">
-						<h2>You Are Invited</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext">
-							<h3>Please fill out the form below to RSVP!</h3>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Plus One</label>
-								<input type="name" class="form-control" id="email" placeholder="Name of +1 if any">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">What makes you dance?</label>
-								<input type="email" class="form-control" id="email" placeholder="A song that makes you dance?">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Dietary concerns</label>
-								<input type="email" class="form-control" id="email" placeholder="Any dietary concerns?">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+
 
 <!--
 	<div id="qbootstrap-gallery" data-section="gallery">
