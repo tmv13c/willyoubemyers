@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .video-hero {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -381,8 +381,8 @@ h1, h2, h3, h4, h5, h6 {
 .video-hero .display-tc .holder span:before,
 .video-hero .display-tc .holder span:after {
   position: absolute;
-  top: 49%;
-  width: 100px;
+  top: 50%;
+  width: 100%;
   height: 2px;
   background: #fff;
   content: '';
@@ -471,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: top center;
   min-height: 770px;
-  position: relative;
+  clear: both;
 }
 #qbootstrap-slider-hero .flexslider .slides li:after {
   position: absolute;
@@ -656,7 +656,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background-repeat: no-repeat;
   z-index: 0;
-  width: 100%;
 }
 #qbootstrap-countdown .section-heading {
   margin-bottom: 0 !important;
@@ -1684,4 +1683,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+.illustration {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
